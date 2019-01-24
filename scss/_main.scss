@@ -1,5 +1,79 @@
 html {
     body {
         margin: 0;
+        font-size: 16px;
+        header {
+            margin: 0 auto;
+            text-align: center;
+            img {
+                max-width: 200px;
+            }
+            border-bottom: 2px dotted;
+        }
+        ul {
+            list-style-type: none;
+            margin: 40px 0;
+            li {
+                display: inline-block;
+                width: 15%;
+            }
+        }
+        #side {
+            float: right;
+            width: 20%;
+            padding: 20px;
+            margin-right: 60px;
+            #prof {
+                img {
+                    max-width: 200px;
+                    border: 1px solid #ccc;
+                }
+                h1 {
+                    color: orange;
+                }
+            }
+            #social {
+                ul {
+                    li {
+                        padding: 10px 0;
+                        display: block;
+                    }
+                }
+            }
+        }
+        #main {
+            float: right;
+            width: 70%;
+            padding: 20px;
+            margin-left: 30px;
+            text-align: center;
+            div {
+                &:first-child {
+                    h1 {
+                        border: none;
+                    }
+                }
+                h1 {
+                    border-top: 2px dotted black;
+                    padding-top: 20px;
+                    font-size: 3em;
+                    color: orange;
+                }
+                article {
+                    h1 {
+                        border: none;
+                        font-size: 2em;
+                        color: black;
+                    }
+                    img {
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+        footer {
+            clear: both;
+            text-align: center;
+        }
     }
 }

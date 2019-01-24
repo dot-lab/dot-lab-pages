@@ -1,0 +1,79 @@
+html body {
+  margin: 0;
+  font-size: 16px;
+}
+
+html body header {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px dotted;
+}
+
+html body header img {
+  max-width: 200px;
+}
+
+html body ul {
+  list-style-type: none;
+  margin: 40px 0;
+}
+
+html body ul li {
+  display: inline-block;
+  width: 15%;
+}
+
+html body #side {
+  float: right;
+  width: 20%;
+  padding: 20px;
+  margin-right: 60px;
+}
+
+html body #side #prof img {
+  max-width: 200px;
+  border: 1px solid #ccc;
+}
+
+html body #side #prof h1 {
+  color: orange;
+}
+
+html body #side #social ul li {
+  padding: 10px 0;
+  display: block;
+}
+
+html body #main {
+  float: right;
+  width: 70%;
+  padding: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+html body #main div:first-child h1 {
+  border: none;
+}
+
+html body #main div h1 {
+  border-top: 2px dotted black;
+  padding-top: 20px;
+  font-size: 3em;
+  color: orange;
+}
+
+html body #main div article h1 {
+  border: none;
+  font-size: 2em;
+  color: black;
+}
+
+html body #main div article img {
+  max-width: 400px;
+}
+
+html body footer {
+  clear: both;
+  text-align: center;
+}
