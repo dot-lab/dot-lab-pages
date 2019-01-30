@@ -1,100 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" href="./js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-	<script>
-		$(document).ready(function() {
-			$("a#single_image").fancybox();
-		});
-	</script>
-	<title>.lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css" />
+  <script>
+    lightbox.option({
+      'positionFromTop': 100,
+      'showImageNumberLabel': false
+    })
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100823795-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-100823795-1');
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://unpkg.com/flamelink/dist/flamelink.js"></script>
+  <title>.lab</title>
 </head>
 <body>
-	<header>
-		<img src="./image/logo.png" alt="logo">
-		<h2>「わたくしという現象は 仮定された有機交流電燈の ひとつの青い照明です」</h2>
-		<ul>
-			<li><a href="#2018">2018</a></li>
-			<li><a href="#2017">2017</a></li>
-			<li><a href="#2016">～2016</a></li>
-		</ul>
-	</header>
-	<div id="side">
-		<div id="prof">
-			<img src="./image/prof.jpg" alt="prof">
-			<h1>Yoshie Takeda</h1>
-			<p>
-				フロントエンドエンジニア / クリエイター<br>
-				「ともに歩めるエンジニア」を目指しています
-			</p>
-		</div>
-		<div id="social">
-			<ul>
-				<li><a href="https://twitter.com/end_less__" target="_blank">Twitter</a></li>
-				<li><a href="https://github.com/dot-lab" target="_blank">GitHub</a></li>
-				<li><a href="https://www.facebook.com/dotlab.yoshie.takeda" target="_blank">Facebook</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<div id="2018">
-			<h1>2018</h1>
-			<article>
-				<h1>spl2BOT</h1>
-				<a href="./image/spl2.png" id="single_image"><img src="./image/spl2.png"></a>
-				<p class="meta">2018.03 / Node.js</p>
-				<p class="desc">
-					2018年3月、個人制作。「スプラトゥーン2」の現在のステージ情報を知らせるBOT。<br>Herokuにデプロイして「Slack」のスラッシュコマンドとして利用。
-				</p>
-			</article>
-			<article>
-				<h1>WeatherBOT</h1>
-				<a href="./image/weather.png" id="single_image"><img src="./image/weather.png"></a>
-				<p class="meta">2018.03 / Node.js</p>
-				<p class="desc">
-					2018年3月、個人制作。大阪の天気を知らせるBOT。<br>Herokuにデプロイして「Slack」のスラッシュコマンドとして利用。
-				</p>
-			</article>
-			<article>
-				<h1>駕籠者ノ物語</h1>
-				<a href="./image/kagonomono.jpg" id="single_image"><img src="./image/kagonomono.jpg"></a>
-				<p class="meta">2018.01 / Unity</p>
-				<p class="desc">
-						2018年1月、京都府精華町で開催の「Global Game Jam 2018」にて、6名チームで制作。<br>マウス・タッチの入力関係のプログラムと、プロジェクトの進捗管理を担当。
-				</p>
-			</article>
-		</div>
-		<div id="2017">
-			<h1>2017</h1>
-			<article>
-				<h1>Escape by Ship</h1>
-				<a href="./image/ship.png" id="single_image"><img src="./image/ship.png"></a>
-				<p class="meta">2017.01 / Unity</p>
-				<p class="desc">
-						2017年1月、京都府精華町で開催の「Global Game Jam 2017」にて、6名チームで制作。<br>
-						ゲーム全体のフロー制御プログラムと、プロジェクトの進捗管理を担当。
-				</p>
-			</article>
-		</div>
-		<div id="2016">
-			<h1>～2016</h1>
-			<article>
-				<h1>BraveBatteryWidget</h1>
-				<a href="./image/brave.png" id="single_image"><img src="./image/brave.png"></a>
-				<p class="meta">2016.05 / Android Studio(Java)</p>
-				<p class="desc">
-						2016年5月、Playストアにてリリース（現在は公開終了）。<br>「ブレイブフロンティア」のファンアプリ。バッテリー残量に応じてメッセージが変わるウィジェット。
-				</p>
-			</article>
-		</div>
-	</div>
-		<footer>
-		<p>.lab :: by Yoshie Takeda</p>
-	</footer>
+  <div id="header">
+    <img src="./image/logo.png" alt="logo" class="logo">
+    <p>"わたくしという現象は 仮定された有機交流電燈の ひとつの青い照明です"</p>
+    <p>宮沢賢治 - 春と修羅「序」より</p>
+  </div>
+  <div id="works">
+    <h1 class="section-title">Works</h1>
+    <div id="posts"></div>
+  </div>
+  <div id="prof">
+    <h1 class="section-title">Profile</h1>
+    <img src="./image/prof.png" alt="prof">
+    <p class="name">Yoshie Takeda（やっこ）</p>
+    <p>”ネオン街の多次元存在”</p>
+    <p>「ともに歩めるエンジニア」を目指し,日々活動中。</p>
+    <h1 class="section-title">Contact</h1>
+    <p>メール,もしくはTwitterのReply / DMにてお問い合わせを受け付けています。</p>
+    <p>info※dot-lab.xyz（※→@）</p>
+    <p><a href="https://twitter.com/end_less__" target="_blank">Twitter（@end_less__）</a></p>
+  </div>
+  <div id="footer">
+    <p>.lab :: by Yoshie Takeda</p>
+  </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>

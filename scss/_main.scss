@@ -1,82 +1,86 @@
 html {
-    body {
-        a {
-            color: orange;
-            text-decoration: none;
-        }
-        margin: 0;
-        font-size: 16px;
-        header {
-            margin: 0 auto;
-            text-align: center;
-            img {
-                max-width: 200px;
-            }
-            border-bottom: 2px dotted;
-        }
-        ul {
-            list-style-type: none;
-            margin: 40px 0;
-            li {
-                display: inline-block;
-                width: 15%;
-            }
-        }
-        #side {
-            float: right;
-            width: 20%;
-            padding: 20px;
-            margin-right: 60px;
-            #prof {
-                img {
-                    max-width: 200px;
-                    border: 1px solid #ccc;
-                }
-                h1 {
-                    color: orange;
-                }
-            }
-            #social {
-                ul {
-                    li {
-                        padding: 10px 0;
-                        display: block;
-                    }
-                }
-            }
-        }
-        #main {
-            float: right;
-            width: 70%;
-            padding: 20px;
-            text-align: center;
-            div {
-                &:first-child {
-                    h1 {
-                        border: none;
-                    }
-                }
-                h1 {
-                    border-top: 2px dotted black;
-                    padding-top: 20px;
-                    font-size: 3em;
-                    color: orange;
-                }
-                article {
-                    h1 {
-                        border: none;
-                        font-size: 2em;
-                        color: black;
-                    }
-                    img {
-                        max-width: 400px;
-                    }
-                }
-            }
-        }
-        footer {
-            clear: both;
-            text-align: center;
-        }
+  body {
+    a {
+      color: orange;
+      text-decoration: none;
     }
+    font-size: 16px;
+    margin: 0;
+    .section-title {
+      font-size: 3em;
+    }
+    #header {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 2em;
+          border-bottom: 1px dashed #ccc;
+      img {
+        margin-top: 2em;
+        max-width: 200px;
+        height: auto;
+      }
+    }
+    #works {
+      float: right;
+      width: 75%;
+      box-sizing: border-box;
+      border-left: 1px dashed #ccc;
+      padding: 2em;
+      #posts {
+        .post {
+          h1 {
+            margin-bottom: 0.5em;
+          }
+          h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            font-weight: normal;
+          }
+          p {
+            font-weight: normal;
+          }
+          img {
+            display: inline-block;
+            border: 1px solid #ccc;
+            max-width: 500px;
+            height: auto;
+          }
+          .content {
+            margin-bottom: 2em;
+            p {
+              font-size: 1em;
+              display: block;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+    #prof {
+      width: 25%;
+      float: right;
+      box-sizing: border-box;
+      padding: 2em;
+      .name {
+          font-weight: bold;
+        }
+      img {
+        border: 1px solid #ccc;
+        max-width: 200px;
+        height: auto;
+      }
+    }
+    #footer {
+      clear: both;
+      width: 100%;
+      text-align: center;
+      background: #aaa;
+      p {
+        padding: 1em;
+        font-size: 1em;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
