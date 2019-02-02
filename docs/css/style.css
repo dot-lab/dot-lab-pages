@@ -8,6 +8,12 @@ html body a {
   text-decoration: none;
 }
 
+@media (max-width: 568px) {
+  html body {
+    font-size: 14px;
+  }
+}
+
 html body .section-title {
   font-size: 3em;
 }
@@ -27,11 +33,19 @@ html body #header img {
 }
 
 html body #works {
-  float: right;
+  float: left;
   width: 75%;
   box-sizing: border-box;
   border-left: 1px dashed #ccc;
   padding: 2em;
+}
+
+@media (max-width: 568px) {
+  html body #works {
+    float: none;
+    width: 100%;
+    border: none;
+  }
 }
 
 html body #works #posts .post h1 {
@@ -55,6 +69,12 @@ html body #works #posts .post img {
   height: auto;
 }
 
+@media (max-width: 568px) {
+  html body #works #posts .post img {
+    max-width: 300px;
+  }
+}
+
 html body #works #posts .post .content {
   margin-bottom: 2em;
 }
@@ -67,19 +87,40 @@ html body #works #posts .post .content p {
 
 html body #prof {
   width: 25%;
-  float: right;
+  float: left;
   box-sizing: border-box;
   padding: 2em;
+}
+
+@media (max-width: 568px) {
+  html body #prof {
+    float: none;
+    width: 100%;
+    border-bottom: 1px dashed #ccc;
+  }
 }
 
 html body #prof .name {
   font-weight: bold;
 }
 
+@media (max-width: 568px) {
+  html body #prof .name {
+    text-align: center;
+  }
+}
+
 html body #prof img {
   border: 1px solid #ccc;
   max-width: 200px;
   height: auto;
+}
+
+@media (max-width: 568px) {
+  html body #prof img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 html body #footer {

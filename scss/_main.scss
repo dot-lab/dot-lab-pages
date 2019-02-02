@@ -5,6 +5,9 @@ html {
       text-decoration: none;
     }
     font-size: 16px;
+    @include sp {
+      font-size: 14px;
+    }
     margin: 0;
     .section-title {
       font-size: 3em;
@@ -22,7 +25,12 @@ html {
       }
     }
     #works {
-      float: right;
+      @include sp {
+        float: none;
+        width: 100%;
+        border: none;
+      }
+      float: left;
       width: 75%;
       box-sizing: border-box;
       border-left: 1px dashed #ccc;
@@ -45,6 +53,9 @@ html {
             border: 1px solid #ccc;
             max-width: 500px;
             height: auto;
+            @include sp {
+              max-width: 300px;
+            }
           }
           .content {
             margin-bottom: 2em;
@@ -58,14 +69,26 @@ html {
       }
     }
     #prof {
+      @include sp {
+        float: none;
+        width: 100%;
+        border-bottom: 1px dashed #ccc;
+      }
       width: 25%;
-      float: right;
+      float: left;
       box-sizing: border-box;
       padding: 2em;
       .name {
-          font-weight: bold;
+        font-weight: bold;
+        @include sp {
+          text-align: center;
         }
+      }
       img {
+        @include sp {
+          display: block;
+          margin: 0 auto;
+        }
         border: 1px solid #ccc;
         max-width: 200px;
         height: auto;
