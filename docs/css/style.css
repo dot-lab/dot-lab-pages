@@ -1,6 +1,12 @@
 html body {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
+}
+
+@media (max-width: 568px) {
+  html body .visible-pc {
+    display: none;
+  }
 }
 
 html body a {
@@ -10,7 +16,7 @@ html body a {
 
 @media (max-width: 568px) {
   html body {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -30,6 +36,10 @@ html body #header img {
   margin-top: 2em;
   max-width: 200px;
   height: auto;
+}
+
+html body #header p {
+  margin: 0 1em;
 }
 
 html body #works {

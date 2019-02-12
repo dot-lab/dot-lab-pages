@@ -1,12 +1,17 @@
 html {
   body {
+    .visible-pc {
+      @include sp {
+        display: none;
+      }
+    }
     a {
       color: orange;
       text-decoration: none;
     }
-    font-size: 16px;
+    font-size: 14px;
     @include sp {
-      font-size: 14px;
+      font-size: 12px;
     }
     margin: 0;
     .section-title {
@@ -22,6 +27,9 @@ html {
         margin-top: 2em;
         max-width: 200px;
         height: auto;
+      }
+      p {
+        margin: 0 1em;
       }
     }
     #works {
