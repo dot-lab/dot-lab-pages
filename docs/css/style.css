@@ -3,12 +3,6 @@ html body {
   margin: 0;
 }
 
-@media (max-width: 568px) {
-  html body .visible-pc {
-    display: none;
-  }
-}
-
 html body a {
   color: orange;
   text-decoration: none;
@@ -22,6 +16,9 @@ html body a {
 
 html body .section-title {
   font-size: 3em;
+  padding: 0.8rem;
+  border-left: 5px solid orange;
+  background: oldlace;
   font-family: 'Ubuntu', sans-serif;
 }
 
