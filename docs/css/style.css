@@ -22,6 +22,7 @@ html body a {
 
 html body .section-title {
   font-size: 3em;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 html body #header {

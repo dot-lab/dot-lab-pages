@@ -16,13 +16,14 @@ html {
     margin: 0;
     .section-title {
       font-size: 3em;
+      font-family: 'Ubuntu', sans-serif;
     }
     #header {
       width: 100%;
       margin: 0 auto;
       text-align: center;
       padding-bottom: 2em;
-          border-bottom: 1px dashed #ccc;
+      border-bottom: 1px dashed #ccc;
       img {
         margin-top: 2em;
         max-width: 200px;
