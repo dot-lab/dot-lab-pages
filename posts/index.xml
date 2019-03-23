@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on .lab</title>
+    <link>https://dot-lab.github.io/dot-lab-pages/posts/</link>
+    <description>Recent content in Posts on .lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 24 Mar 2019 05:18:31 +0900</lastBuildDate>
+    
+	<atom:link href="https://dot-lab.github.io/dot-lab-pages/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>家族の離し合い!?</title>
+      <link>https://dot-lab.github.io/dot-lab-pages/posts/hanashiai/</link>
+      <pubDate>Sun, 24 Mar 2019 05:18:31 +0900</pubDate>
+      
+      <guid>https://dot-lab.github.io/dot-lab-pages/posts/hanashiai/</guid>
+      <description>2019年1月,ヤフー大阪で開催の「Global Game Jam 2019」にて4名チームで制作。 シーン生成・遷移のプログラムを主に担当。 ＊Global Game</description>
+    </item>
+    
+    <item>
+      <title>駕籠者ノ物語</title>
+      <link>https://dot-lab.github.io/dot-lab-pages/posts/kagonomono/</link>
+      <pubDate>Sat, 24 Mar 2018 05:54:47 +0900</pubDate>
+      
+      <guid>https://dot-lab.github.io/dot-lab-pages/posts/kagonomono/</guid>
+      <description>2018年1月、京都府精華町で開催の「Global Game Jam 2018」にて、6名チームで制作。 マウス・タッチの入力関係のプログラムと、プロジェクト</description>
+    </item>
+    
+    <item>
+      <title>Escape by Ship</title>
+      <link>https://dot-lab.github.io/dot-lab-pages/posts/escapebyship/</link>
+      <pubDate>Fri, 24 Mar 2017 05:55:02 +0900</pubDate>
+      
+      <guid>https://dot-lab.github.io/dot-lab-pages/posts/escapebyship/</guid>
+      <description>2017年1月、京都府精華町で開催の「Global Game Jam 2017」にて、6名チームで制作。 ゲーム全体のフロー制御プログラムと、プロジェクトの進</description>
+    </item>
+    
+    <item>
+      <title>BraveBatteryWidget</title>
+      <link>https://dot-lab.github.io/dot-lab-pages/posts/brave/</link>
+      <pubDate>Thu, 24 Mar 2016 05:55:14 +0900</pubDate>
+      
+      <guid>https://dot-lab.github.io/dot-lab-pages/posts/brave/</guid>
+      <description>2016年5月、Playストアにてリリース（現在は公開終了）。 「ブレイブフロンティア」のファンアプリ。バッテリー残量に応じてメッセージが変わ</description>
+    </item>
+    
+  </channel>
+</rss>
