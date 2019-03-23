@@ -1,0 +1,22 @@
+baseURL = "https://dot-lab.github.io/dot-lab-pages"
+hasCJKLanguage = true
+languageCode = "ja"
+title = ".lab"
+theme = "m10c"
+
+[params]
+  author = "Yoshie Takeda"
+  title = ".lab"
+  description = "「ともに歩めるエンジニア」を目指し,日々活動中"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/dot-lab"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/end_less__"
+  [params.style]
+    darkestColor = "#315659"
+    darkColor = "#253031"
+    primaryColor = "#dad865"
+    lightColor = "#96a879"
+    lightestColor = "#fff"
