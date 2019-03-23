@@ -1,7 +1,0 @@
-$widthSp: 568px;
-@mixin sp {
-  @media (max-width: ($widthSp)) {
-    @content;
-  }
-}
-@import "main";
