@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.lab</title>
@@ -6,10 +6,19 @@
     <description>Recent content on .lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 24 Mar 2019 05:18:31 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 16:23:25 +0900</lastBuildDate>
     
 	<atom:link href="https://dot-lab.github.io/dot-lab-pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spider&#39;s Patchwork</title>
+      <link>https://dot-lab.github.io/dot-lab-pages/posts/spider/</link>
+      <pubDate>Fri, 03 Apr 2020 16:23:25 +0900</pubDate>
+      
+      <guid>https://dot-lab.github.io/dot-lab-pages/posts/spider/</guid>
+      <description>2020年2月,京都府精華町で開催の「Global Game Jam 2020」にて、6名チームで制作。 2D画像素材を担当。（背景,ロゴなど） ＊Global</description>
+    </item>
     
     <item>
       <title>家族の離し合い!?</title>
